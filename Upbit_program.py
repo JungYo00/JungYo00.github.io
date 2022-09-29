@@ -1,8 +1,8 @@
 import pyupbit
 import time
 
-access_key = "CNYIBsRDRtsknVS6AaY9wm3rnjPqcEBLrhAxHPIv"
-secret_key = "jqxQplCAweGSDuOp0tTLvRLxhzk59c2OX3y0R0Te"
+access_key = "Qf5NGv8QxAqnfTfdpNQTyhQVdLPPKsyxGJP9wW0g"
+secret_key = "K3v1UBD6R9QU2npkPeNf52EDBlXVxdS1QBDKGwWF"
 
 if __name__ == '__main__':
     upbit = pyupbit.Upbit(access_key, secret_key)  # 로그인
