@@ -1,11 +1,11 @@
 import pyupbit
 import time
 
-access_key = "ymw81x6cbtTm964KRKq6BR8NAVJrI6Gxnei9HKr4"
-secret_key = "KLJPvX2mfDxfzbvafDQxTaf87JWpSji47vwHnG4m"
+access = "csMGG1TOSfHirfznMPz3ndQ1SmL0MUkPxW0gnfm9"          
+secret = "XyRxFjRQxEUeiQUfe5ttdFz792T2aH6BoiVR0sxQ"
 
 if __name__ == '__main__':
-    upbit = pyupbit.Upbit(access_key, secret_key)  # 로그인
+    upbit = pyupbit.Upbit(access, secret)  # 로그인
 
     # 미채결된 주문들 취소
     result = upbit.get_order("KRW-XRP")
